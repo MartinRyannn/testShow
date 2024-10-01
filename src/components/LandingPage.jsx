@@ -55,7 +55,7 @@ const LandingPage = () => {
 
         if (data.message === 'Success') {
           console.log('Historical Data: ', data.historical_data);
-          alert('OANDA connection successful, historical data retrieved.');
+          alert('Historical data retrieved.');
         } else {
           alert('Error: ' + data.message);
         }
